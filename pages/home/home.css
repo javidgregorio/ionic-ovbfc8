@@ -1,0 +1,17 @@
+ion-content {
+  background : linear-gradient(to top,#1c92d2, #E4E5E6, #FFEFBA, #ffffff);
+}
+h2 {
+  color: #000000;
+  text-align: justify;
+  font-size: 300%;
+}
+img {display: block;
+margin: auto;
+width: 30%;
+}
+p {
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 200%;
+}
