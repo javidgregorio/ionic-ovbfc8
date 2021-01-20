@@ -1,5 +1,5 @@
 ion-content {
-  background-image: url("https://cdn.jsdelivr.net/gh/javidgregorio/ionic-ovbfc8@master/139285211_152971319786651_1596985713815096232_n.png");
+  background-image: url("https://cdn.jsdelivr.net/gh/javidgregorio/ionic-ovbfc8@master/141064013_243925607260315_8432133686103803518_n.png");
   background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -10,11 +10,17 @@ margin: auto;
 width: 40%;
 }
 h2 {
-  color: white;
+  padding: 10px;
+  background: gold;
+  color: black;
+  border-style: dashed;
   text-align: center;
   font-size: 200%;
 }
 p {
+  padding: 10px;
+  background: #ed213a;
+  border-style: dashed;
   color: white;
   font-family:'Times New Roman', Times, serif;
   text-align: justify;
