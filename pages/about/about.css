@@ -9,10 +9,12 @@ h2 {
 }
 img {display: block;
 margin: auto;
-width: 30%;
+width: 25%;
 }
 p {
   font-family:'Times New Roman', Times, serif;
   text-align: justify;
-  font-size: 200%;
+  font-size: 125%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
