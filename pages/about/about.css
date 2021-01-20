@@ -3,8 +3,9 @@ ion-content {
 }
 h2 {
   color: #000000;
-  text-align: justify;
-  font-size: 300%;
+  text-align: center;
+  font-style: italic;
+  font-size: 100%;
 }
 img {display: block;
 margin: auto;

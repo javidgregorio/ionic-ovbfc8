@@ -4,14 +4,13 @@ ion-content {
 h2 {
   color: #000000;
   text-align: justify;
-  font-size: 300%;
+  font-size: 100%;
 }
 img {display: block;
 margin: auto;
 width: 30%;
 }
 p {
-  font-family:'Times New Roman', Times, serif;
   text-align: center;
-  font-size: 200%;
+  font-size: 300%;
 }

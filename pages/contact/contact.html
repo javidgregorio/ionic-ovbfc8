@@ -7,5 +7,46 @@
 </ion-header>
 
 <ion-content padding>
+<p> Ideal Weight Calculator </p>
+<ion-item>
+  <ion-label color="dark">Sex: </ion-label>
+  <ion-select interface="popover" [(ngModel)]="sex">
+  <ion-option value="m">Male</ion-option>
+  <ion-option value="f">Female</ion-option>
+  </ion-select>
+  </ion-item>
+<p>
+<ion-item>
+  <ion-label color="dark"> ENTER HEIGHT BELOW</ion-label>
+  </ion-item>
+
+<ion-item>
+  <ion-label color="dark"> Feet: </ion-label>
+  <ion-input type="number" [(ngModel)]="feet"></ion-input>
+  </ion-item>
+
+<ion-item>
+  <ion-label color="dark"> Inches: </ion-label>
+  <ion-input type="number" [(ngModel)]="inches"></ion-input>
+  </ion-item>
+<p>
+<ion-item>
+  <ion-label color="dark"> ENTER WEIGHT BELOW </ion-label>
+  </ion-item>
+
+<ion-item>
+  <ion-label color="dark"> Kilograms: </ion-label>
+  <ion-input type="number"></ion-input>
+  </ion-item>
+
+<button ion-button color="primary" (click)="calculatedesired()"> CALCULATE
+  </button>
+   <ion-item *ngIf="rdesired">
+    <h2>Ideal Weight Calculator:</h2>
+    <h2>According to Miller: {{mdesired}} {{pmessage}} </h2>
+    <h2>According to Robinson: {{rdesired}} {{pmessage}} </h2>
+    <h2>According to Devine: {{ddesired}} {{pmessage}}</h2>
+    <h2>According to Hamwi: {{hdesired}} {{pmessage}}</h2>
   
-</ion-content>
+  </ion-item>
+
