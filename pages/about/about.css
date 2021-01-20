@@ -1,8 +1,11 @@
 ion-content {
-  background : linear-gradient(to top,#1c92d2, #E4E5E6, #FFEFBA, #ffffff);
+  background-image: url("https://cdn.jsdelivr.net/gh/javidgregorio/ionic-ovbfc8@master/139426446_414939116424834_1599931093179675398_n.png");
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 h2 {
-  color: #000000;
+  color: white;
   text-align: center;
   font-style: italic;
   font-size: 100%;
@@ -13,6 +16,7 @@ width: 25%;
 }
 p {
   font-family:'Times New Roman', Times, serif;
+  color: white;
   text-align: justify;
   font-size: 125%;
   margin-left: 20%;
