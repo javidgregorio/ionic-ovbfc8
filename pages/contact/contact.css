@@ -11,15 +11,16 @@ h2 {
   margin-left: 20%;
   margin-right: 20%;
 }
-img {display: block;
-margin: auto;
-width: 60%;
-margin-left: 20%;
-  margin-right: 20%;
-}
+
 p {
   text-align: center;
   font-size: 190%;
-  margin-left: 20%;
-  margin-right: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+ion-item {
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
 }
