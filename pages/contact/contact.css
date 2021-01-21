@@ -6,10 +6,9 @@ background-size: cover;
 }
 h2 {
   color: #000000;
-  text-align: justify;
+  text-align: center;
   font-size: 100%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: auto;
 }
 
 p {
