@@ -11,6 +11,9 @@ h2 {
   font-size: 100%;
   margin-left: 10%;
   margin-right: 10%;
+  padding: 10px;
+  background: #ed213a;
+  border-style: dashed;
 }
 img {display: block;
 margin: auto;
@@ -18,9 +21,13 @@ width: 50%;
 }
 p {
   font-family:'Times New Roman', Times, serif;
-  color: white;
+  color: black;
   text-align: justify;
   font-size: 125%;
   margin-left: 7%;
   margin-right: 7%;
+   padding: 10px;
+  background: gold;
+  border-style: dashed;
+  
 }
