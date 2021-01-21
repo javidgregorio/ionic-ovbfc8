@@ -27,7 +27,7 @@ export class ContactPage {
       this.millerdesired = Math.round(56.2 + 1.41 *(this.fttoinch)+ 1.41 * this.inches);
       this.hamwidesired = Math.round(48 + 2.7 *(this.fttoinch)+ 2.7 * this.inches);
       this.devinedesired = Math.round(50 + 2.3 *(this.fttoinch)+ 2.3 * this.inches);
-      this.pmessage = "kg.";
+      this.pmessage = "kg";
     }
     else if (this.sex == "f") {
       this.fttoinch = (this.feet - 5) * 12;
@@ -35,12 +35,9 @@ export class ContactPage {
       this.millerdesired = Math.round(53.1 + 1.36 *(this.fttoinch)+ 1.36 * this.inches);
       this.hamwidesired = Math.round(45.5 + 2.2 *(this.fttoinch)+ 2.2 * this.inches);
       this.devinedesired = Math.round(45.5 + 2.3 *(this.fttoinch)+ 2.3 * this.inches);
-      this.pmessage = "kg.";
+      this.pmessage = "kg";
     }
     else{
-    
     }
-
-    
   }
 }
