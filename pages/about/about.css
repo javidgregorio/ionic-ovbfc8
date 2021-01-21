@@ -23,7 +23,7 @@ h2 {
   padding: 10px;
   background: #ed213a;
   border-style: block;
-  border-color: white;
+  
 }
 img {display: block;
 margin: auto;
@@ -38,7 +38,7 @@ p {
   margin-right: 7%;
    padding: 10px;
   background: black;
-  border-style: bold;
-  border-color: white;
+  border-style: outset;
+  
   
 }

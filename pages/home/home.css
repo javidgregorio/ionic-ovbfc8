@@ -13,14 +13,14 @@ h2 {
   padding: 10px;
   background: gold;
   color: black;
-  border-style: dashed;
+  border-style: inset;
   text-align: center;
   font-size: 200%;
 }
 p {
   padding: 10px;
   background: #ed213a;
-  border-style: dashed;
+  border-style: double;
   color: white;
   font-family:'Times New Roman', Times, serif;
   text-align: justify;
