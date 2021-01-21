@@ -9,8 +9,9 @@ ion-chip{
 
 }
 ion-avatar{
-  width: px;
+  width: 60px;
   height:60px;
+  font-size: 100%;
 }
 h2 {
   color: white;
@@ -21,7 +22,8 @@ h2 {
   margin-right: 10%;
   padding: 10px;
   background: #ed213a;
-  border-style: dashed;
+  border-style: block;
+  border-color: white;
 }
 img {display: block;
 margin: auto;
@@ -29,13 +31,14 @@ width: 50%;
 }
 p {
   font-family:'Times New Roman', Times, serif;
-  color: black;
+  color: white;
   text-align: justify;
-  font-size: 125%;
+  font-size: 100%;
   margin-left: 7%;
   margin-right: 7%;
    padding: 10px;
-  background: white;
+  background: black;
   border-style: bold;
+  border-color: white;
   
 }
