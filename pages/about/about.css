@@ -4,6 +4,14 @@ ion-content {
 background-repeat: no-repeat;
 background-size: cover;
 }
+ion-chip{
+  color: white;
+
+}
+ion-avatar{
+  width: px;
+  height:60px;
+}
 h2 {
   color: white;
   text-align: center;
